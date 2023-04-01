@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humaya</title>
+    <!-- Link Bootstarp -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Bootstrap Iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Link Fonts Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Link CSS propio -->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar Pricipal-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid container container-nav">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/Logo/HconDulce100x100.png" alt="" width="48" height="48" class="d-inline-block align-text-top">
+                    <a class="navbar-brand colorTituloLogo" href="#">HUMAYA</a>
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#quienes-somos">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#calidad">Calidad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#productos">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#locales">Locales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#ingredientes">Ingredientes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+       <!-- Section Portada-->
+       <section id="portada" class="container py-3">
+            <div class="portada-container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="text-center py-3">DULCES DEL ALMA</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6"></div>
+                        <div class="col-md-4">
+                            <h6>Los productos HUMAYA son elaborados
+                                desde hace más de 50 años fiel a las
+                                tradiciones familiares y sabores caseros,
+                                acompañándote en los momentos más
+                                importantes de la vida.
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-sm-12">
+                            <a class="btn btn-contacto" href="#contacto">CONOCENOS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section Calidad-->
+        <section id="calidad">
+            <div class="container py-3 containerCalidad">
+                <div class="row col-12 calidad-titulo text-center">
+                    <div class="col">
+                        <h2>LA MEJOR CALIDAD PARA VOS</h2>
+                    </div>
+                </div>
+                <div class="calidadImagenes">
+                    <div class="row col-md-2 ">
+                        <img class="w-50" src="./img/Productos/organico.png" alt="...">
+
+                    </div>
+                    <div class="row col-md-2 ">
+
+                        <img class="w-50" src="./img/Productos/sinTacc.png" alt="...">
+                    </div>
+                    <div class="row col-md-2 ">
+                        <img class="w-50" src="./img/Productos/SinConservantes.png" alt="...">
+                    </div>
+                  </div>
+        </section>  
+        <!-- Section Productos-->
+        <section id="productos">
+            <div class="container py-3 row col-12 productos-titulo">
+                <h2>PRODUCTOS</h2>
+                <div class="row col-md-2"></div>
+                <div class="productos row col-md-4">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/Productos/Producto1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/Productos/Producto2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/Productos/Producto3.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="row col-md-4">
+                    <div>
+                        <p class="productos-parrafo">Elaboracion artesanal de principio a fin, con un sabor intenso, receta tradicional sin conservantes ni aditivos</p>
+                        <a class="btn btn-recetas" href="#ingredientes">Ingredientes</a>
+                        <a class="btn btn-pedidos"  href="#contacto">CONTACTO</a>
+                    </div>
+                </div>
+                <section class="container mt-3 text-end">
+                    <a href="#"class="a-subir">Subir</a>
+                </section>
+            </div>
+        </section>
+        <!-- Section Quienes somos-->
+        <section id="quienes-somos" class="container py-3 quienes-somos">
+            <div >
+                <h2>QUIENES SOMOS</h2>  
+                <div class="container py-3 text-center">
+                    <h6 class="img-texto">Los productos HUMAYA son elaborados
+                        desde hace más de 50 años.
+                    </h6>
+                    <h6 class="img-texto">
+                        Nuestros origenes pertenecen a la provincia de Mendoza.
+                    </h6>
+                    <h6 class="img-texto">
+                        En la actualidad contamos con mas de 10 puntos de venta propios.
+                    </h6>
+                    <h6 class="img-texto">
+                        Tenemos una cadena de distribucion que nos permite llegar a cualqueir punto del pais en menos de 24 horas.
+                    </h6>
+                </div>
+            </div>   
+            </div>
+        </section>
+        <!-- Contacto-->
+        <section id="contacto">
+                <div class="container py-3 row contacto-form">
+                    <h2 class="contacto-titulo">CONTACTO</h2>
+                    <div class="col-sm-12 col-md-6 col-lg-6 contacto-img">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-5">
+                        <p>Dejanos tus comentarios y nos estaremos comunicando con vos</p>
+                        <form >
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre y apellido</label>
+                                <input type="text" class="form-control" name="nombre" placeholder="Apellido y Nombre">  
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Email</label>
+                                <input type="email" class="form-control" name="correo" placeholder="Email">  
+                            </div>
+                            <div class="mb-3">
+                                <label for="consultas" class="form-label">Consultas</label>
+                                <textarea class="form-control" id="consultas" rows="3" placeholder="Comentarios"></textarea>
+                            </div>
+                            <div class="row pb-5">
+                                <div class="col-6">
+                                    <button class="btn btn-enviar" type="submit">Enviar</button>
+                                </div>
+                                <div class="col-6">
+                                    <button class="btn btn-enviar" type="reset">Borrar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <section class="container mt-3 text-end">
+                        <a href="#" class="a-subir">Subir</a>
+                    </section>
+                </div> 
+        </section>                     
+        <!-- Locales -->
+        <section id="locales" class="container py-3 quienes-somos">
+            <div>
+                <h2>LOCALES</h2>
+                <h4 class="text-center">Donde Nos Encontras</h4>  
+                <div class="row row-cols-2 ">
+                    <div class="col container-img bg-dark img-mapa">
+                        <div class="img-texto">
+                            <h6>Rodríguez Peña 1205, CABA</h6>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.368670850776!2d-58.39419368491993!3d-34.59483788046174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabdcdfe78a1%3A0x7bd13dd98c1a96b2!2sRodr%C3%ADguez%20Pe%C3%B1a%201205%2C%20C1021ABA%20CABA%2C%20Argentina!5e0!3m2!1ses!2sil!4v1680368989745!5m2!1ses!2sil" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col container-img img-mapa">
+                        <div class="img-texto">
+                            <h6>Av. Pueyrredón 1802, CABA</h6> 
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5603759846254!2d-58.40491667380934!3d-34.58998881797392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca9bda828ef7%3A0x8f4efbbe080825e3!2sAv.%20Pueyrred%C3%B3n%201802%2C%20C1119ACO%20CABA%2C%20Argentina!5e0!3m2!1ses!2sil!4v1680368923591!5m2!1ses!2sil" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col container-img  img-mapa">
+                        <div class="img-texto">
+                            <h6>Córdoba 992, Rosario</h6>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.1622685997777!2d-60.63865818496591!3d-32.94672498092103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab21eb7bd1b5%3A0x4d94f9d1d04e65bc!2sHavanna!5e0!3m2!1ses!2sil!4v1680369023910!5m2!1ses!2sil" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col container-img bg-dark img-mapa">
+                        <div class="img-texto">
+                            <h6>Gral. Paz 156, Crodoba Capital</h6>  
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.0206991056!2d-64.18801258500689!3d-31.41355578140505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28288947ea3%3A0xc705531aedb5e9e2!2sGral.%20Paz%20156%2C%20X5022%20C%C3%B3rdoba%2C%20Argentina!5e0!3m2!1ses!2sil!4v1680369078281!5m2!1ses!2sil" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                    </div>
+                </div>  
+            </div>
+        </section>     
+        <!-- Ingredientes -->
+        <section id="ingredientes" class="container py-5 text-center container-recetas">
+            <div >
+                <h2>INGREDIENTES</h2>  
+            </div>
+            <div class="row row-cols-2 container">
+                <div class="col container-img bg-dark">
+                    <img class="recetas-img" src="./img/Productos/Producto1.png" alt="">
+                    <div class="img-texto">
+                        <h6>DULCE DE LECHE TRADICIONAL</h6>
+                        <li class="ingredientes-li">1 litro de leche</li>
+                        <li class="ingredientes-li">350 gr de azúcar</li>
+                        <li class="ingredientes-li">1/2 cdita de bicarbonato de sodio</li>
+                        <li class="ingredientes-li">Esencia de vainilla</li>
+                    </div>
+                </div>
+                <div class="col container-img">
+                    <img class="recetas-img" src="./img/Productos/Producto2.png" alt="">
+                    <div class="img-texto">
+                        <h6>DULCE DE LECHE SIN AZÚCAR</h6>
+                        <li class="ingredientes-li">1 litro de leche</li>
+                        <li class="ingredientes-li">1/2 cdita de bicarbonato de sodio</li>
+                        <li class="ingredientes-li">Esencia de vainilla</li>
+                    </div>
+                </div>
+                <div class="col container-img ">
+                    <img class="recetas-img" src="./img/Productos/Producto3.png" alt="">
+                    <div class="img-texto">
+                        <h6>DULCE CHOCONUTT</h6>
+                        <li class="ingredientes-li">1 litro de leche</li>
+                        <li class="ingredientes-li">350 gr de coco rallado</li>
+                        <li class="ingredientes-li">1/2 cdita de bicarbonato de sodio</li>
+                        <li class="ingredientes-li">Esencia de vainilla</li>
+                    </div>
+                </div>
+                <div class="col container-img bg-dark">
+                    <img class="recetas-img" src="./img/Productos/Producto4.png" alt="">
+                    
+                    <div class="img-texto">
+                    <h6>ALFAJORES DE MAICENA</h6>
+                        <li class="ingredientes-li">250 g de maicena</li>
+                        <li class="ingredientes-li">80 g de azúcar</li>
+                        <li class="ingredientes-li">100 g de manteca y 2 huevos</li>
+                        <li class="ingredientes-li">1 cucharadita de polvo para hornear</li>
+                        <li class="ingredientes-li">Dulce de leche y coco rallado</li>
+                    </div>
+                </div>
+            </div>
+            <section class="container mt-3 text-end">
+                <a href="#" class="a-subir">Subir</a>
+            </section>
+        </section>
+    </main>
+    
+    <footer id="footer" class="container-footer">
+        <!-- Seccion Logo-->
+        <section class="container py-3 container-footer-info">
+            <section class="row">
+                <!-- Seccion Footer con Logo-->
+                <section class="col-2 logo">
+                    <a href=""><img src="./img/Logo/LogoHumaya100x100.png"/></a>
+                </section>
+                <section class="col-sm-12 col-md-3 menu">
+                    <h4 class="txt-dark-brown">Menú</h4>
+                    <ul class="a-link">
+                        <li><a class="a-link" href="#">Home</a></li>
+                        <li><a href="#quienes-somos">Quienes Somos</a></li>
+                        <li><a href="#calidad">Calidad</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#locales">Locales</a></li>
+                        <li><a href="#ingredientes">Ingredientes</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </section>
+                <!-- navegacion -->
+                <section class="col-sm-12 col-md-3 navegacion">
+                    <h4 class="txt-dark-brown">Navegación</h4>
+                    <ul>
+                        <li><a href="">Preguntas frecuentes</a></li>
+                        <li><a href="">Distribuidores</a></li>
+                        <li><a href="">Prensa</a></li>
+                        <li><a href="">Recetas exclusivas</a></li>
+                    </ul>
+                </section>
+                <!-- redes sociales -->
+                <section class="col-sm-12 col-md-2 redes">
+                    <h4 class="txt-dark-brown">Redes</h4>
+                        <ul>
+                            <li><a href="#"><i class="bi bi-tiktok " role="img" aria-label="icono de TikTok"></i></a></li>
+                            <li><a href="#"><i class="bi bi-facebook " role="img" aria-label="icono de Facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-instagram " role="img" aria-label="icono de Instagram"></i></a></li>
+                        </ul>
+                </section>
+                <!-- navegacion -->
+                <section class="col-sm-12 col-md-2 ubicacion ">
+                    <h4>Ubicación</h4>
+                    <div class="ubicacion-texto">
+                        <h6>Casa CEntral</h6=>
+                        <p>Montes de Oca 2356, CABA</p>
+                    </div>
+                </section>
+                <div class="copi-footer">Copyright&copy;2023 - Yanina Charas</div>
+            </section>
+        </section>
+
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
+

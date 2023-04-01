@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+header {
+  background-color: #3c3939;
+}
+
+main {
+  background-color: #3c3939;
+}
+/* Navbar */
+.navbar-nav {
+  align-items: center;
+}
+.navbar-collapse {
+  justify-content: space-evenly;
+}
+.container-nav {
+  background-color: #242222;
+}
+/* Portada*/
+#portada {
+  background-image: url("../img/Central/imagenCentral.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-container {
+  color: #ece9e5;
+  text-align: center;
+}
+.containerCalidad,
+.calidad-titulo {
+  color: #ece9e5;
+  background-color: #242222;
+}
+
+.container-recetas {
+  background-color: #87715f;
+}
+/* footer*/
+.container-footer {
+  color: #ece9e5;
+  background-color: #3c3939;
+}
+.container-footer-info {
+  background-color: #242222;
+  padding-bottom: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color:#87715f;
+}
+.a-subir {
+    text-decoration: none;
+    color:black;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:5px;
+    background-color:#87715f52;
+}
+a:hover{
+    color:#ece9e5;
+}
+.copi-footer {
+  background-color: #87715f;
+  color: #ece9e5;
+  text-align: center;
+}
+
+/*Calidad*/
+.calidadImagenes {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Productos*/
+#productos,
+#contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #786351;
+}
+
+.productos-titulo,
+.contacto-titulo {
+  text-align: center;
+  color: #ece9e5;
+  background-color: #87715f;
+}
+.contacto-titulo {
+  background-color: transparent;
+  color: #3c3939;
+}
+.contacto-form {
+  color: #87715f;
+  background-color: #ece9e5;
+}
+.productos-parrafo {
+  padding-top: 1rem;
+  text-align: left;
+  padding-bottom: 2rem;
+}
+/*Contacto*/
+.contacto-img {
+  border: 2px solid #ece9e5;
+  border-radius: 5px;
+  background-image: url("../img/Productos/Producto5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* quienes somos*/
+.quienes-somos {
+  background-color: #242222;
+  color: #ece9e5;
+}
+
+.quienes-somos h2 {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+/*Ingredientes*/
+.recetas-img {
+  width: 50%;
+}
+.container-img {
+  border: 2px solid #24222220;
+  display: flex;
+  justify-content: left;
+  padding: 0.5%;
+  color: #ece9e5;
+}
+.img-texto {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: small;
+}
+.ingredientes-li {
+  list-style: none;
+  font-size: small;
+  text-align: left;
+}
+
+.ubicacion-texto{
+    color:#87715f;
+}
+
+/*Botones*/
+.btn {
+  justify-self: center;
+  color: #87715f;
+}
+.btn-contacto {
+  border-color: transparent;
+  background-color: #84828189;
+  color: #3c3939;
+}
+.btn-recetas,
+.btn-pedidos {
+  border-color: #84828189;
+  background-color: #242222;
+}
+
+.btn-recetas:hover {
+  border-color: #ece9e5;
+  color: #ece9e5;
+}
+.btn-enviar {
+  border-color: #87715f;
+}
+
+.btn-pedidos:hover,
+.btn-enviar:hover,
+.btn-contacto:hover {
+  background-color: #87715f;
+  color: #ece9e5;
+  border-color: #ece9e5;
+}
+
+/*Mapas*/
+.img-mapa {
+  border: 2px solid #87715fd4;
+  background-color: #87715f;
+  padding: 1%;
+  font-size: xx-small;
+  text-align: left;
+}
+
